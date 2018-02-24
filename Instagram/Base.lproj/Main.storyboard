@@ -51,6 +51,9 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="pAn-88-emg"/>
                                 </constraints>
                                 <state key="normal" title="アカウント作成" backgroundImage="btn"/>
+                                <connections>
+                                    <action selector="handleCreateAcountButton:" destination="bnH-Mx-BCp" eventType="touchUpInside" id="1id-eL-Cbp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpL-ai-uMk">
                                 <rect key="frame" x="37" y="220" width="300" height="40"/>
@@ -58,6 +61,9 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="bdw-r9-9e7"/>
                                 </constraints>
                                 <state key="normal" title="ログイン" backgroundImage="btn"/>
+                                <connections>
+                                    <action selector="handleLoginButton:" destination="bnH-Mx-BCp" eventType="touchUpInside" id="Hcf-OI-5Mi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
