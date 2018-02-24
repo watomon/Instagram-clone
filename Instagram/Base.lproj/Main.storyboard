@@ -138,6 +138,9 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="MA9-rz-JGi"/>
                                 </constraints>
                                 <state key="normal" title="表示名を変更" backgroundImage="btn"/>
+                                <connections>
+                                    <action selector="handleChangeButton:" destination="0ty-MB-3AI" eventType="touchUpInside" id="wvp-Y5-bSP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYJ-Fy-C1i">
                                 <rect key="frame" x="37" y="190" width="300" height="40"/>
@@ -145,6 +148,9 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="rZ0-3Q-MCz"/>
                                 </constraints>
                                 <state key="normal" title="ログアウト" backgroundImage="btn"/>
+                                <connections>
+                                    <action selector="handleLogoutButton:" destination="0ty-MB-3AI" eventType="touchUpInside" id="DbQ-OA-oov"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -158,6 +164,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7sf-cU-E9T"/>
                     </view>
+                    <connections>
+                        <outlet property="displayNameTextField" destination="v0c-SB-chG" id="9gm-9a-6MN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qe5-Gl-y7i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
